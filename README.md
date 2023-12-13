@@ -14,7 +14,7 @@ Referring expression segmentation (RES) aims at segmenting the foreground masks 
 
 ---
 ## 🌖 Benchmark RefCOCOm
-The newly bulit benchmark RefCOCOm can be found at [here](https://arxiv.org/abs/2312.01623).
+The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.com/file/d/1yTeGGWpsPna3OaKzA2hOWhUQvZSEVugD/view?usp=drive_link).
 <p align="center">
  <img src="Figures/RefCOCOm.png" width="100%">
 </p>
