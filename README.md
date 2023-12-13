@@ -14,38 +14,52 @@ Referring expression segmentation (RES) aims at segmenting the foreground masks 
 
 ---
 ## 🌖 Benchmark RefCOCOm
-The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.com/file/d/1yTeGGWpsPna3OaKzA2hOWhUQvZSEVugD/view?usp=drive_link).
+The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.com/file/d/1yTeGGWpsPna3OaKzA2hOWhUQvZSEVugD/view?usp=drive_link). We follow the same specific data processing details as [CRIS](https://github.com/DerrickWang005/CRIS.pytorch), which can be found at [here](https://github.com/DerrickWang005/CRIS.pytorch/blob/master/tools/prepare_datasets.md).
 <p align="center">
- <img src="Figures/RefCOCOm.png" width="100%">
+ <img src="Figures/RefCOCOm.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/RefCOCOm_analysis.png" width="100%">
+ <img src="Figures/RefCOCOm_analysis.png" width="90%">
 </p>
 
 ## 🌗 Data Generation Engine & Training Set MRES-32M
 <p align="center">
- <img src="Figures/data_engine.png" width="100%">
+ <img src="Figures/data_engine.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES-32M_information.png" width="100%">
+ <img src="Figures/MRES-32M_information.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES-32M.png" width="100%">
+ <img src="Figures/MRES-32M.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES-32M_analysis.png" width="100%">
+ <img src="Figures/MRES-32M_analysis.png" width="90%">
 </p>
 
 ## 🌘 Simple Baseline Model UniRES
 <p align="center">
- <img src="Figures/UniRES.png" width="100%">
+ <img src="Figures/UniRES.png" width="90%">
 </p>
 
 ## 🌑 Results
 <p align="center">
- <img src="Figures/classic_RES.png" width="100%">
+ <img src="Figures/classic_RES.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES.png" width="100%">
+ <img src="Figures/MRES.png" width="80%">
 </p>
 
+## 🚀 Citation
+If you use our data or model in your work or find it is helpful, please cite the corresponding paper:
+
+```
+@inproceedings{wang2021transbts,
+  title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
+  author={Wang, Wenxuan and Chen, Chen and Ding, Meng and Li, Jiangyun and Yu, Hong and Zha, Sen},
+  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
+  year={2021}
+}
+```
+
+## 🏭 Reference
+1.[CRIS](https://github.com/DerrickWang005/CRIS.pytorch)
