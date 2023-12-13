@@ -26,6 +26,9 @@ Referring expression segmentation (RES) aims at segmenting the foreground masks 
  <img src="Figures/data_engine.png" width="100%">
 </p>
 <p align="center">
+ <img src="Figures/MRES-32M_information.png" width="100%">
+</p>
+<p align="center">
  <img src="Figures/MRES-32M.png" width="100%">
 </p>
 <p align="center">
