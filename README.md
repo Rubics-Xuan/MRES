@@ -1,55 +1,45 @@
-# MRES
-This repo holds the official code and data for "Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation".
+![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/e6783216-8987-4c40-88d5-e320e8a06cc0)
+# Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation
+Wenxuan Wang, Tongtian Yue, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang, Jing Liu
 
-# Universal Segmentation at Arbitrary Granularity with Language Instruction
-Yong Liu, Cairong Zhang, Yitong Wang, Jiahao Wang, Yujiu Yang, Yansong Tang
+The repository contains the official code and data of our paper "Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation".
 
-The repository contains the official implementation of "Universal Segmentation at Arbitrary Granularity with Language Instruction"
-
-[Paper](https://arxiv.org/abs/2312.01623)
-
-<a href='https://arxiv.org/abs/2312.01623'><img src='https://img.shields.io/badge/ArXiv-2312.01623-red'></a> 
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/universal-segmentation-at-arbitrary/referring-expression-segmentation-on-refcoco-3)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-3?p=universal-segmentation-at-arbitrary)
- <br>
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/universal-segmentation-at-arbitrary/referring-expression-segmentation-on-refcoco-4)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-4?p=universal-segmentation-at-arbitrary)
- <br>
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/universal-segmentation-at-arbitrary/referring-expression-segmentation-on-refcoco-5)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcoco-5?p=universal-segmentation-at-arbitrary)
- <br>
- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/universal-segmentation-at-arbitrary/referring-expression-segmentation-on-refcocog)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcocog?p=universal-segmentation-at-arbitrary)
-  <br>
-  [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/universal-segmentation-at-arbitrary/referring-expression-segmentation-on-refcocog-1)](https://paperswithcode.com/sota/referring-expression-segmentation-on-refcocog-1?p=universal-segmentation-at-arbitrary)
+<a href='https://arxiv.org/abs/2312.01623'><img src='https://img.shields.io/badge/ArXiv-2312.01623-red'></a>   [Paper](https://arxiv.org/abs/2312.01623)
 
 
-## 📖 Abstract
-This paper aims to achieve universal segmentation of arbitrary semantic level.
-Despite significant progress in recent years, specialist segmentation approaches are limited to specific tasks and data distribution. Retraining a new model for adaptation to new scenarios or settings takes expensive computation and time cost, which raises the demand for versatile and universal segmentation model that can cater to various granularity. 
-Although some attempts have been made for unifying different segmentation tasks or generalization to various scenarios, limitations in the definition of paradigms and input-output spaces make it difficult for them to achieve accurate understanding of content at arbitrary granularity. 
-To this end, we present UniLSeg, a universal segmentation model that can perform segmentation at any semantic level with the guidance of language instructions. 
-For training UniLSeg, we reorganize a group of tasks from original diverse distributions into a unified data format, where images with texts describing segmentation targets as input and corresponding masks are output. Combined with a automatic annotation engine for utilizing numerous unlabeled data, UniLSeg achieves excellent performance on various tasks and settings, surpassing both specialist and unified segmentation models.
+## ![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/d6d157fe-08a7-4d57-9091-e44a5b8bf0b7) Abstract
+Referring expression segmentation (RES) aims at segmenting the foreground masks of the entities that match the descriptive natural language expression. Previous datasets and methods for classic RES task heavily rely on the prior assumption that one expression must refer to object-level targets. In this paper, we take a step further to finer-grained part-level RES task. To promote the object-level RES task towards finer-grained vision-language understanding, we put forward a new multi-granularity referring expression segmentation (MRES) task and construct an evaluation benchmark called RefCOCOm by manual annotations. By employing our automatic model-assisted data engine, we build the largest visual grounding dataset namely MRES-32M, which comprises over 32.2M high-quality masks and captions on the provided 1M images. Besides, a simple yet strong model named UniRES is designed to accomplish the unified object-level and part-level grounding task. Extensive experiments on our RefCOCOm for MRES and three datasets (\ie, RefCOCO(+/g)) for classic RES task demonstrate the superiority of our method over previous state-of-the-art methods.
+<p align="center">
+ <img src="Figures/Intro.png" width="100%">
+</p>
 
 ---
-## 📖 Pipeline
+## ![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/d6d157fe-08a7-4d57-9091-e44a5b8bf0b7) Benchmark RefCOCOm
 <p align="center">
- <img src="imgs/teaser.png" width="100%">
+ <img src="Figures/RefCOCOm.png" width="100%">
 </p>
 <p align="center">
- <img src="imgs/pipeline.png" width="100%">
-</p>
-
-## 📖 Visualization
-<p align="center">
- <img src="imgs/results-1.png" width="100%">
-</p>
-<p align="center">
- <img src="imgs/results-2.png" width="100%">
+ <img src="Figures/RefCOCOm_analysis.png" width="100%">
 </p>
 
-## 📖 Results
+## ![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/d6d157fe-08a7-4d57-9091-e44a5b8bf0b7) Data Generation Engine & Training Set MRES-32M
 <p align="center">
- <img src="imgs/results-3.png" width="100%">
+ <img src="Figures/MRES-32M.png" width="100%">
+</p>
+<p align="center">
+ <img src="Figures/MRES-32M_analysis.png" width="100%">
 </p>
 
-## 🎤🎤🎤 Todo
+## ![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/d6d157fe-08a7-4d57-9091-e44a5b8bf0b7) Simple Baseline Model UniRES
+<p align="center">
+ <img src="Figures/UniRES.png" width="100%">
+</p>
 
-- [ ] Release the code and checkpoint
+## ![image](https://github.com/Rubics-Xuan/MRES/assets/56334198/d6d157fe-08a7-4d57-9091-e44a5b8bf0b7) Results
+<p align="center">
+ <img src="Figures/classic_RES.png" width="100%">
+</p>
+<p align="center">
+ <img src="Figures/MRES.png" width="100%">
+</p>
+
