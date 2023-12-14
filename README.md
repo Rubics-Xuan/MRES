@@ -3,7 +3,7 @@ Wenxuan Wang, Tongtian Yue, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang,
 
 The repository contains the official code and data of our paper "Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation".
 
-<a href='https://arxiv.org/abs/2312.01623'><img src='https://img.shields.io/badge/ArXiv-2312.01623-red'></a>   [Paper](https://arxiv.org/abs/2312.01623)
+<a href='https://arxiv.org/abs/2312.08007'><img src='https://img.shields.io/badge/ArXiv-2312.08007-red'></a>   [Paper](https://arxiv.org/abs/2312.08007)
 
 
 ## 🌕 Abstract
@@ -16,7 +16,7 @@ Referring expression segmentation (RES) aims at segmenting the foreground masks 
 ## 🌖 Benchmark RefCOCOm
 The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.com/file/d/1yTeGGWpsPna3OaKzA2hOWhUQvZSEVugD/view?usp=drive_link). We follow the same specific data processing details as [CRIS](https://github.com/DerrickWang005/CRIS.pytorch), which can be found at [here](https://github.com/DerrickWang005/CRIS.pytorch/blob/master/tools/prepare_datasets.md).
 <p align="center">
- <img src="Figures/RefCOCOm.png" width="90%">
+ <img src="Figures/RefCOCOm.png" width="80%">
 </p>
 
 ## 🌗 Data Generation Engine & Training Set MRES-32M
@@ -24,10 +24,10 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
  <img src="Figures/data_engine.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES-32M_information.png" width="90%">
+ <img src="Figures/MRES-32M_information.png" width="70%">
 </p>
 <p align="center">
- <img src="Figures/MRES-32M.png" width="90%">
+ <img src="Figures/MRES-32M.png" width="80%">
 </p>
 
 ## 🌘 Simple Baseline Model UniRES
@@ -40,7 +40,7 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
  <img src="Figures/classic_RES.png" width="90%">
 </p>
 <p align="center">
- <img src="Figures/MRES.png" width="80%">
+ <img src="Figures/MRES.png" width="70%">
 </p>
 
 ## 🚀 Citation
