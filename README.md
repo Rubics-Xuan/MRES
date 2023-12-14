@@ -18,9 +18,6 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
 <p align="center">
  <img src="Figures/RefCOCOm.png" width="90%">
 </p>
-<p align="center">
- <img src="Figures/RefCOCOm_analysis.png" width="90%">
-</p>
 
 ## 🌗 Data Generation Engine & Training Set MRES-32M
 <p align="center">
@@ -31,9 +28,6 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
 </p>
 <p align="center">
  <img src="Figures/MRES-32M.png" width="90%">
-</p>
-<p align="center">
- <img src="Figures/MRES-32M_analysis.png" width="90%">
 </p>
 
 ## 🌘 Simple Baseline Model UniRES
