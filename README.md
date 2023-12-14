@@ -47,12 +47,7 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
 If you use our data or model in your work or find it is helpful, please cite the corresponding paper:
 
 ```
-@inproceedings{wang2021transbts,
-  title={TransBTS: Multimodal Brain Tumor Segmentation Using Transformer},  
-  author={Wang, Wenxuan and Chen, Chen and Ding, Meng and Li, Jiangyun and Yu, Hong and Zha, Sen},
-  booktitle={International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)},
-  year={2021}
-}
+
 ```
 
 ## 🏭 Reference
