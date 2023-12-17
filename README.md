@@ -47,7 +47,12 @@ The newly bulit benchmark RefCOCOm can be found at [here](https://drive.google.c
 If you use our data or model in your work or find it is helpful, please cite the corresponding paper:
 
 ```
-
+@article{wang2023unveiling,
+  title={Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation},
+  author={Wang, Wenxuan and Yue, Tongtian and Zhang, Yisi and Guo, Longteng and He, Xingjian and Wang, Xinlong and Liu, Jing},
+  journal={arXiv preprint arXiv:2312.08007},
+  year={2023}
+}
 ```
 
 ## 🏭 Reference
