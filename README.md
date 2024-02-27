@@ -2,7 +2,9 @@
 
 Wenxuan Wang, Tongtian Yue, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang, Jing Liu
 
-<h4 align="center"> <a href="https://rubics-xuan.github.io/MRES/" align="center"> [Project page] </a> | <a href="https://arxiv.org/abs/2312.08007" align="center"> [Our Paper] </a> </h4>
+<p align="center">
+ <a href=''><img src='https://img.shields.io/badge/Project_Page-Green' alt='Paper PDF'></a> <a href='https://arxiv.org/abs/2312.08007'><img src='https://img.shields.io/badge/arXiv_Paper-red' alt='Project Page'></a> <a href='https://rubics-xuan.github.io/MRES/'><img src='https://badges.aleen42.com/src/youtube.svg'> </a>
+</p>
 
 The repository contains the official code and data of our paper "Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation". <a href='https://arxiv.org/abs/2312.08007'><img src='https://img.shields.io/badge/ArXiv-2312.08007-red'></a>
 
@@ -56,4 +58,10 @@ If you use our data or model in your work or find it is helpful, please cite the
 ```
 
 ## 🏭 Acknowledgement
+This work is built on many excellent research works and open-source projects, thanks a lot to all the authors for sharing!
+
 1.[CRIS](https://github.com/DerrickWang005/CRIS.pytorch)
+
+2.[LAVT](https://github.com/yz93/LAVT-RIS)
+
+3.[X-Decoder](https://github.com/microsoft/X-Decoder)
