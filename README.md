@@ -1,4 +1,4 @@
-# Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation    (accepted by CVPR 2024)
+# Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation ——accepted by CVPR 2024
 
 Wenxuan Wang, Tongtian Yue, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang, Jing Liu
 
