@@ -1,4 +1,5 @@
-# Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation (accepted by CVPR 2024)
+# Unveiling Parts Beyond Objects: Towards Finer-Granularity Referring Expression Segmentation
+# (accepted by CVPR 2024)
 Wenxuan Wang, Tongtian Yue, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang, Jing Liu
 
 <h4 align="center"> <a href="https://rubics-xuan.github.io/MRES/" align="center"> [Project page] </a> | <a href="https://arxiv.org/abs/2312.08007" align="center"> [Our Paper] </a> </h4>
