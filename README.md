@@ -3,7 +3,7 @@
 Wenxuan Wang*, Tongtian Yue*, Yisi Zhang, Longteng Guo, Xingjian He, Xinlong Wang, Jing Liu
 
 <p align="center">
- <a href='https://rubics-xuan.github.io/MRES/'><img src='https://img.shields.io/badge/Project_Page-Green' alt='Paper PDF'></a> <a href='https://arxiv.org/abs/2312.08007'><img src='https://img.shields.io/badge/arXiv_Paper-red' alt='Project Page'></a> <a href=''><img src='https://badges.aleen42.com/src/youtube.svg'> </a>
+ <a href='https://rubics-xuan.github.io/MRES/'><img src='https://img.shields.io/badge/Project_Page-Green' alt='Paper PDF'></a> <a href='https://arxiv.org/abs/2312.08007'><img src='https://img.shields.io/badge/arXiv_Paper-red' alt='Project Page'></a> <a href='https://www.youtube.com/watch?v=X3ETkqB_GB8'><img src='https://badges.aleen42.com/src/youtube.svg'> </a>
 </p>
 
 ## 🚩 **News**
